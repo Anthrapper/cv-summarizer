@@ -1,0 +1,16 @@
+{
+  "summary_settings": {
+    "min_length": 430,
+    "max_length": 500
+  },
+  "model_settings": {
+    "temperature": 0.0,
+    "max_tokens": 600,
+    "chunk_size": 3000
+  },
+  "ollama_settings": {
+    "base_url": "http://localhost:11434",
+    "timeout": 60
+  },
+  "prompt": "You are an experienced HR professional and hiring manager with 10+ years of experience in talent acquisition. \nYour task is to analyze the following resume/CV and create a CONCISE summary from an employer's perspective.\n\nRequirements:\n- Create a single paragraph summary, BETWEEN {min_length}-{max_length} CHARACTERS\n- Synthesize key information about the candidate's profile, skills, experience, and potential\n- Focus on what matters for hiring decisions\n- Be objective and professional\n- Include both strengths and potential concerns\n- Do NOT use bullet points, sections, or headers\n- Write as a cohesive narrative summary\n- Ensure the summary is comprehensive enough for hiring decisions\n\nResume/CV content:\n{document_text}\n\nConcise Summary ({min_length}-{max_length} characters):"
+}

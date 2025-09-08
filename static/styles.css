@@ -1,0 +1,102 @@
+.main-header {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    padding: 2rem;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.upload-area {
+    border: 2px dashed #3b82f6;
+    border-radius: 12px;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #f8fafc;
+    transition: all 0.3s ease;
+    color: #1e293b;
+}
+
+.upload-area:hover {
+    border-color: #1e40af;
+    background-color: #f1f5f9;
+}
+
+.summary-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    border: 1px solid #e2e8f0;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+.summary-card h1, .summary-card h2, .summary-card h3 {
+    color: #1e40af;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.summary-card ul, .summary-card ol {
+    color: #334155;
+    margin-bottom: 1rem;
+}
+
+.summary-card li {
+    margin-bottom: 0.5rem;
+}
+
+.summary-card strong {
+    color: #1e40af;
+}
+
+.progress-bar {
+    background: #3b82f6;
+    height: 6px;
+    border-radius: 3px;
+    transition: width 0.3s ease;
+}
+
+.stTextInput > div > div > input {
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+}
+
+.stSelectbox > div > div > select {
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+}
+
+.stSlider > div > div > div > div {
+    background: #3b82f6;
+}
+
+.error-message {
+    background-color: #fef2f2;
+    color: #dc2626;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #dc2626;
+    margin: 1rem 0;
+}
+
+.success-message {
+    background-color: #f0fdf4;
+    color: #16a34a;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #16a34a;
+    margin: 1rem 0;
+}
+
+.warning-message {
+    background-color: #fffbeb;
+    color: #d97706;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #d97706;
+    margin: 1rem 0;
+}

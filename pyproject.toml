@@ -1,0 +1,12 @@
+[project]
+name = "cv-summarizer"
+version = "0.1.0"
+description = "AI Resume/CV Summarizer using local Ollama models"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "streamlit>=1.28.0",
+    "ollama>=0.1.6",
+    "pdfplumber>=0.9.0",
+    "python-docx>=0.8.11",
+]
